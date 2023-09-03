@@ -1,0 +1,12 @@
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
