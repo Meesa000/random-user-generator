@@ -1,12 +1,41 @@
 
-
-
-h1{
-    display: flex;
-    justify-content: center;
+body {
+    background-color: rgb(35, 38, 39);
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(232, 230, 227);
+    
+    
 }
 
-ul {
+h1{
+    font-size: 5rem;
+    margin-top: 0;
+    
+}
+
+.user-info {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    font-size: 2rem;
+    
+}
+
+.container div {
+    margin-top: 2rem;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+}
+
+
+
+.two {
+    display: flex;
+    height: 100px;
+    background-color: rgb(35, 38, 39);
+    border: solid 2px white;
 }
